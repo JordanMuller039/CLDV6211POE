@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "My Work";
+}
+
+<style>
+    h1 {
+        margin-top: 25px;
+    }
+</style>
+
+<style>
+    .Work {
+        text-align: center;
+    }
+
+    .grid {
+        display: inline-block;
+        margin: 20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+        .grid img {
+            width: 250px;
+            height: 250px;
+            margin: 5px;
+        }
+
+    .description {
+        margin-top: 10px;
+    }
+
+        .description p {
+            margin: 0;
+        }
+</style>
+
+    <div class="text-center">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+        <p>The Meat and Potatoes of KhumaloCraft</p>
+
+        <br />
+        <br />
+        <p><strong>April Wood Kitchen Collection</strong></p>
+        <br />
+
+ 
+            <div class="grid">
+                <img src="~/lib/images/WoodBoard.jpg" alt="Image" width="250" height="250">
+                <div class="description">
+                    <p><strong>R650</strong></p>
+                    <p>A handcrafted wooden cutting Board Made by "Luca Bostin" from Pine Maple wood</p>
+                </div>
+            </div>
+            <div class="grid">
+            <img src="~/lib/images/Knife.jpg" alt="Image" width="250" height="250">
+                <div class="description">
+                    <p><strong>R1650</strong></p>
+                    <p>Stainless Steel Knife with a light birch wood Handle made by "Grant Ash" sharpened with grindstone</p>
+                </div>
+            </div>
+            <div class="grid">
+            <img src="~/lib/images/Spoon.jpg" alt="Image" width="250" height="250">
+                <div class="description">
+                    <p><strong>R350</strong></p>
+                    <p>Classic Kitchen wooden spoon made by "Jason Kretch" using devine dark Pine polished with our varnish</p>
+                </div>
+            </div>
+    </div>
+
