@@ -10,22 +10,22 @@ using Part1.Models;
 
 namespace Part1.Controllers
 {
-    public class ProductsController : Controller
+    public class TransactionsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public ProductsController(ApplicationDbContext context)
+        public TransactionsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Products
+        // GET: Transactions
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Products.ToListAsync());
+            return View(await _context.Transactions.ToListAsync());
         }
 
-        // GET: Products/Details/5
+        // GET: Transactions/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)
@@ -33,57 +33,40 @@ namespace Part1.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.ProductID == id);
-            if (product == null)
+            var transactions = await _context.Transactions
+                .FirstOrDefaultAsync(m => m.transactionID == id);
+            if (transactions == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(transactions);
         }
 
-        // GET: Products/Create
+        // GET: Transactions/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        public async Task<IActionResult> Order(Guid? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.ProductID == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
-        }
-
-        // POST: Products/Create
+        // POST: Transactions/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductID,ProductName,ProductPrice,Category,Availability")] Product product)
+        public async Task<IActionResult> Create([Bind("transactionID,transactionAmount,ProductName")] Transactions transactions)
         {
             if (ModelState.IsValid)
             {
-                product.ProductID = Guid.NewGuid();
-                _context.Add(product);
+                transactions.transactionID = Guid.NewGuid();
+                _context.Add(transactions);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(transactions);
         }
 
-        // GET: Products/Edit/5
+        // GET: Transactions/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -91,22 +74,22 @@ namespace Part1.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
+            var transactions = await _context.Transactions.FindAsync(id);
+            if (transactions == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(transactions);
         }
 
-        // POST: Products/Edit/5
+        // POST: Transactions/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("ProductID,ProductName,ProductPrice,Category,Availability")] Product product)
+        public async Task<IActionResult> Edit(Guid id, [Bind("transactionID,transactionAmount,ProductName")] Transactions transactions)
         {
-            if (id != product.ProductID)
+            if (id != transactions.transactionID)
             {
                 return NotFound();
             }
@@ -115,12 +98,12 @@ namespace Part1.Controllers
             {
                 try
                 {
-                    _context.Update(product);
+                    _context.Update(transactions);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.ProductID))
+                    if (!TransactionsExists(transactions.transactionID))
                     {
                         return NotFound();
                     }
@@ -131,10 +114,10 @@ namespace Part1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(transactions);
         }
 
-        // GET: Products/Delete/5
+        // GET: Transactions/Delete/5
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null)
@@ -142,54 +125,34 @@ namespace Part1.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.ProductID == id);
-            if (product == null)
+            var transactions = await _context.Transactions
+                .FirstOrDefaultAsync(m => m.transactionID == id);
+            if (transactions == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(transactions);
         }
 
-        // POST: Products/Delete/5
+        // POST: Transactions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var product = await _context.Products.FindAsync(id);
-            if (product != null)
+            var transactions = await _context.Transactions.FindAsync(id);
+            if (transactions != null)
             {
-                _context.Products.Remove(product);
+                _context.Transactions.Remove(transactions);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductExists(Guid id)
+        private bool TransactionsExists(Guid id)
         {
-            return _context.Products.Any(e => e.ProductID == id);
+            return _context.Transactions.Any(e => e.transactionID == id);
         }
-
-        public async Task<IActionResult> Buy(Guid? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.ProductID == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            // Redirect to the Transactions Create view, passing the product details
-            return RedirectToAction("Create", "Transactions", new { id = product.ProductID });
-        }
-
-
     }
 }

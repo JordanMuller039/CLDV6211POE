@@ -28,11 +28,6 @@ namespace Part1.Controllers
             return View();
         }
 
-        public IActionResult Table()
-        {
-            return View();
-        }
-
         public IActionResult About()
         {
             return View();

@@ -9,5 +9,6 @@ namespace Part1.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Transactions> Transactions { get; set; }
     }
 }

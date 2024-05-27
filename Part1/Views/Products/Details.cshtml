@@ -1,15 +1,48 @@
 ﻿@model Part1.Models.Product
 
 @{
-    ViewData["Title"] = "Details";
+    ViewBag.Title = "Products";
+    Layout = "_Layout";
 }
 
-<h1>Details</h1>
+<style>
+    .centered-header {
+        text-align: center;
+    }
+
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group input {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+</style>
+
+<div class="centered-content">
+    <h1 class="centered-header">Details</h1>
 
 <div>
     <h4>Product</h4>
     <hr />
-    <dl class="row">
+    <dl class="form-container">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ProductName)
         </dt>

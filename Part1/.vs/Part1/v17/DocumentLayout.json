@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\transactions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\transactions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\home\\work.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\home\\work.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|c:\\users\\vermo\\onedrive\\documents\\uni\\varsity college\\year 2\\cloud development 1a\\part1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D3BE097-EA8E-477E-9FB7-62ECDDA8D5AD}|Part1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +66,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 364,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T16:24:10.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Transactions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transactions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Transactions\\Create.cshtml",
+              "RelativeToolTip": "Views\\Transactions\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T16:23:46.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "Controllers\\TransactionsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:50:32.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:47:25.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Models\\Transactions.cs",
+              "RelativeToolTip": "Models\\Transactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:43:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T12:28:09.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAwEcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T02:39:11.569Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -52,53 +167,26 @@
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAkwL8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T02:01:35.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:44:51.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T01:44:51.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:05:49.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Work.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Home\\Work.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Work.cshtml",
-              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Home\\Work.cshtml",
-              "RelativeToolTip": "Views\\Home\\Work.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T22:53:24.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
@@ -106,38 +194,35 @@
               "RelativeToolTip": "Views\\Home\\Contact.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T22:48:54.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T22:48:54.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAUwCIAAAB4AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwB8AAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T22:45:04.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T22:45:04.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T22:34:11.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T22:34:11.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -146,6 +231,19 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-23T22:25:06.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Vermo\\OneDrive\\Documents\\Uni\\Varsity College\\Year 2\\Cloud Development 1A\\Part1\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T01:05:49.679Z",
               "EditorCaption": ""
             }
           ]

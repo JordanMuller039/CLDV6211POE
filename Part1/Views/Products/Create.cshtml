@@ -1,15 +1,47 @@
 ﻿@model Part1.Models.Product
 
 @{
-    ViewData["Title"] = "Create";
+    ViewBag.Title = "Products";
+    Layout = "_Layout";
 }
 
-<h1>Create</h1>
+<style>
+    .centered-header {
+        text-align: center;
+    }
 
-<h4>Product</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-container {
+        width: 50%; 
+    }
+
+    .form-control {
+        width: 100%; 
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group input {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+</style>
+
+<div class="centered-content">
+    <h1 class="centered-header">Create</h1>
+
+    <h4>Product</h4>
+    <hr />
+    <div class="form-container">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -37,9 +69,8 @@
             </div>
         </form>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
 </div>
-

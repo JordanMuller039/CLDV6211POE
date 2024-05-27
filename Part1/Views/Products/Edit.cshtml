@@ -1,14 +1,47 @@
 ﻿@model Part1.Models.Product
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewBag.Title = "Products";
+    Layout = "_Layout";
 }
 
-<h1>Edit</h1>
+<style>
+    .centered-header {
+        text-align: center;
+    }
+
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-container {
+        width: 50%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group input {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+</style>
+
+<div class="centered-content">
+    <h1 class="centered-header">Edit</h1>
 
 <h4>Product</h4>
 <hr />
-<div class="row">
+<div class="form-container">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
